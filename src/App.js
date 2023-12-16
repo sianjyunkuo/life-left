@@ -5,7 +5,6 @@ function App() {
   return (
     <div className='App'>
       <LifeCalendar />
-      <h1>Hello</h1>
     </div>
   );
 }

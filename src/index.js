@@ -10,17 +10,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <MantineProvider
     theme={{
-      // Your theme override here
-      colorScheme: 'light', // or 'dark'
+      colorScheme: 'light',
     }}
     withGlobalStyles
     withNormalizeCSS
   >
-    <App />
+    <App/>
   </MantineProvider>,
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
